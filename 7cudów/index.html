@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jan Kowalski 3A">
+    <meta name="keywords" content="7 cudów świata, piramidy, colosseum, animacje CSS, responsywna strona">
+    <meta name="description" content="Strona poświęcona 7 cudom świata z animacjami CSS i responsywnym designem">
+    <title>7 Cudów Świata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Nowe 7 cudów świata</h1>
+        </div>
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#wielki-mur">Wielki Mur</a></li>
+                <li><a href="#petra">Petra</a></li>
+                <li><a href="#chichen-itza">Chichen Itza</a></li>
+                <li><a href="#colosseum">Colosseum</a></li>
+                <li><a href="#tadż-mahal">Tadż Mahal</a></li>
+                <li><a href="#machu-picchu">Machu Picchu</a></li>
+                <li><a href="#christus">Christus Odkupiciel</a></li>
+            </ul>
+        </nav>
+        <nav class="menu-tablet">
+            <ul>
+                <li><a href="#wielki-mur">WM</a></li>
+                <li><a href="#petra">P</a></li>
+                <li><a href="#chichen-itza">CI</a></li>
+                <li><a href="#colosseum">C</a></li>
+            </ul>
+            <ul>
+                <li><a href="#tadż-mahal">TM</a></li>
+                <li><a href="#machu-picchu">MP</a></li>
+                <li><a href="#christus">CO</a></li>
+            </ul>
+        </nav>
+        <div class="menu-mobile">
+            <span class="hamburger">☰</span>
+            <ul class="mobile-menu">
+                <li><a href="#wielki-mur">Wielki Mur</a></li>
+                <li><a href="#petra">Petra</a></li>
+                <li><a href="#chichen-itza">Chichen Itza</a></li>
+                <li><a href="#colosseum">Colosseum</a></li>
+                <li><a href="#tadż-mahal">Tadż Mahal</a></li>
+                <li><a href="#machu-picchu">Machu Picchu</a></li>
+                <li><a href="#christus">Christus Odkupiciel</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="wielki-mur" class="cud">
+            <h2>Wielki Mur Chiński</h2>
+            <figure>
+                <img src="obrazy/mur.jpg" alt="Wielki Mur Chiński">
+                <figcaption>Długość: 21 196 km</figcaption>
+            </figure>
+            <p>Najdłuższa budowla obronna świata zbudowana w Chinach od III w. p.n.e. do XVII w. n.e.</p>
+        </section>
+
+        <section id="petra" class="cud">
+            <h2>Petra - Różowe Miasto</h2>
+            <figure>
+                <img src="obrazy/petra.jpg" alt="Petra Jordania">
+                <figcaption>Wybudowane w skale</figcaption>
+            </figure>
+            <p>Starożytne miasto Nabatejczyków w Jordanii, wykute w różowych skałach pustynnych.</p>
+        </section>
+
+        <section id="chichen-itza" class="cud">
+            <h2>Chichen Itza</h2>
+            <figure>
+                <img src="obrazy/Itza.jpg" alt="Chichen Itza">
+                <figcaption>Piramida Kukulkana</figcaption>
+            </figure>
+            <p>Majanskie miasto na półwyspie Jukatan w Meksyku z imponującą piramidą schodkową.</p>
+        </section>
+
+        <section id="colosseum" class="cud">
+            <h2>Kolosseum</h2>
+            <figure>
+                <img src="obrazy/koloseum.jpg" alt="Kolosseum Rzym">
+                <figcaption>Amfiteatr Flawiuszów</figcaption>
+            </figure>
+            <p>Największy amfiteatr starożytnego Rzymu, miejsce walk gladiatorów i widowisk.</p>
+        </section>
+
+        <section id="tadż-mahal" class="cud">
+            <h2>Tadż Mahal</h2>
+            <figure>
+                <img src="obrazy/tadz.jpg" alt="Tadż Mahal Indie">
+                <figcaption>Mauzoleum w Agrze</figcaption>
+            </figure>
+            <p>Mecenat Szahdżahana ku pamięci ukochanej żony - arcydzieło architektury mongolskiej.</p>
+        </section>
+
+        <section id="machu-picchu" class="cud">
+            <h2>Machu Picchu</h2>
+            <figure>
+                <img src="obrazy/machu.jpg" alt="Machu Picchu Peru">
+                <figcaption>Zaginione miasto Inków</figcaption>
+            </figure>
+            <p>Miasto Inków w Andach peruwiańskich, odkryte w 1911 roku przez Hiram Binghama.</p>
+        </section>
+
+        <section id="christus" class="cud">
+            <h2>Christus Odkupiciel</h2>
+            <figure>
+                <img src="obrazy/chrystus.jpg" alt="Christus Odkupiciel Rio">
+                <figcaption>Posąg na górze Corcovado</figcaption>
+            </figure>
+            <p>Ikoniczny posąg Chrystusa z rozpostartymi ramionami nad Rio de Janeiro w Brazylii.</p>
+        </section>
+
+        <section class="galeria">
+            <h2>Galeria Cudów</h2>
+            <div class="galeria-grid">
+                <img src="obrazy/mur.jpg" alt="Wielki Mur">
+                <img src="obrazy/petra.jpg" alt="Petra">
+                <img src="obrazy/Itza.jpg" alt="Chichen Itza">
+                <img src="obrazy/koloseum.jpg" alt="Kolosseum">
+                <img src="obrazy/tadz.jpg" alt="Tadż Mahal">
+                <img src="obrazy/machu.jpg" alt="Machu Picchu">
+                <img src="obrazy/chrystus.jpg" alt="Christus Odkupiciel">
+            </div>
+        </section>
+
+        <section class="tabela">
+            <h2>Porównanie Cudów</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cud</th>
+                        <th>Kraj</th>
+                        <th>Rok budowy</th>
+                        <th>Wysokość</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wielki Mur</td>
+                        <td>Chiny</td>
+                        <td>221 p.n.e.</td>
+                        <td>8,5 m</td>
+                    </tr>
+                    <tr>
+                        <td>Petra</td>
+                        <td>Jordania</td>
+                        <td>II w. p.n.e.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Chichen Itza</td>
+                        <td>Meksyk</td>
+                        <td>VII w.</td>
+                        <td>24 m</td>
+                    </tr>
+                    <tr>
+                        <td>Colosseum</td>
+                        <td>Włochy</td>
+                        <td>70-80 n.e.</td>
+                        <td>48 m</td>
+                    </tr>
+                    <tr>
+                        <td>Tadż Mahal</td>
+                        <td>Indie</td>
+                        <td>1632-1653</td>
+                        <td>73 m</td>
+                    </tr>
+                    <tr>
+                        <td>Machu Picchu</td>
+                        <td>Peru</td>
+                        <td>XV w.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Christus</td>
+                        <td>Brazylia</td>
+                        <td>1922-1931</td>
+                        <td>38 m</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="listy">
+            <h2>Dodatkowe Informacje</h2>
+            <h3>Kolejność w głosowaniu:</h3>
+            <ol>
+                <li>Wielki Mur Chiński</li>
+                <li>Petra</li>
+                <li>Chichen Itza</li>
+                <li>Colosseum</li>
+                <li>Tadż Mahal</li>
+                <li>Machu Picchu</li>
+                <li>Christus Odkupiciel</li>
+            </ol>
+            <h3>Dlaczego warto odwiedzić:</h3>
+            <ul>
+                <li>Unikalna architektura</li>
+                <li>Bogata historia</li>
+                <li>Zachwycające widoki</li>
+                <li>Kulturowe znaczenie</li>
+                <li>Inżynieryjne arcydzieła</li>
+            </ul>
+        </section>
+
+        <section class="multimedia">
+            <h2>Film o cudach</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/M9_8AmFx25U?si=E8-9_fh3Cm3Ti5Go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="mapa">
+            <h2>Lokalizacja Wielkiego Muru</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126623.610397!2d115.9856108!3d40.359159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35bc3d!2sWielki%20Mur%20Chi%C5%84ski!5e0!3m2!1spl!2spl!4v1699999999999" 
+             width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="formularz">
+            <h2>🌟 Ankieta - Ulubiony cud świata</h2>
+            <form class="form-container" novalidate>
+                <div class="form-group">
+                    <label for="imie">
+                        <span class="label-icon">👤</span>
+                        Imię i nazwisko *
+                    </label>
+                    <input type="text" id="imie" name="imie" required placeholder="Wpisz swoje imię i nazwisko">
+                    <span class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <span class="label-icon">🏛️</span>
+                        Ulubiony cud świata *
+                    </label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="ulubiony" value="wielki-mur" id="wielki-mur-radio" required>
+                            <span class="radio-text">Wielki Mur Chiński</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="ulubiony" value="petra" id="petra-radio">
+                            <span class="radio-text">Petra</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="ulubiony" value="chichen-itza" id="chichen-radio">
+                            <span class="radio-text">Chichen Itza</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="ulubiony" value="colosseum" id="colosseum-radio">
+                            <span class="radio-text">Colosseum</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="ulubiony" value="tadż-mahal" id="taj-radio">
+                            <span class="radio-text">Tadż Mahal</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="ulubiony" value="machu-picchu" id="machu-radio">
+                            <span class="radio-text">Machu Picchu</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="ulubiony" value="christus" id="christus-radio">
+                            <span class="radio-text">Christus Odkupiciel</span>
+                        </label>
+                    </div>
+                    <span class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="wiek">
+                            <span class="label-icon">📅</span>
+                            Wiek
+                        </label>
+                        <select id="wiek" name="wiek">
+                            <option value="">Wybierz...</option>
+                            <option value="ponizej18">poniżej 18 lat</option>
+                            <option value="18-25">18-25 lat</option>
+                            <option value="26-35">26-35 lat</option>
+                            <option value="powyzej35">powyżej 35 lat</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="zwiedzone">
+                            <span class="label-icon">✈️</span>
+                            Liczba zwiedzonych cudów
+                        </label>
+                        <input type="number" id="zwiedzone" name="zwiedzone" min="0" max="7" value="0">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-text">📧 Zapisz mnie na newsletter o podróżach</span>
+                    </label>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn-primary">
+                        <span>🚀</span> Wyślij
+                    </button>
+                    <button type="reset" class="btn-secondary">
+                        <span>🗑️</span> Wyczyść
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Nikodem Pijanowski</p>
+            <p>
+                <a href="https://en.wikipedia.org/wiki/New7Wonders_of_the_World" target="_blank" rel="noopener noreferrer">
+                    Wikipedia 7 Cudów
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.mobile-menu').classList.toggle('active');
+        });
+
+        const form = document.querySelector('.form-container');
+        const inputs = form.querySelectorAll('input[required], select');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (form.checkValidity()) {
+                alert('Dziękujemy za wypełnienie ankiety!');
+                form.reset();
+            }
+        });
+
+        inputs.forEach(input => {
+            input.addEventListener('blur', function() {
+                const errorMsg = this.parentNode.querySelector('.error-message');
+                if (this.validity.valid || !this.hasAttribute('required')) {
+                    errorMsg.textContent = '';
+                    errorMsg.style.display = 'none';
+                } else {
+                    errorMsg.textContent = this.validationMessage;
+                    errorMsg.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
